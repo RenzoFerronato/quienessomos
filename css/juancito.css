@@ -180,7 +180,7 @@ body .contenedor .tarjeta .rol .contact1 ul li a {
     margin: auto;
   }
   body .contenedor .tarjeta .imagen img {
-    height: 270px;
+    height: auto;
   }
   body .contenedor .tarjeta .rol {
     width: 100%;
