@@ -1,0 +1,455 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'open sans';
+}
+
+body .contenedor {
+  max-width: 1280px;
+  margin: auto;
+}
+
+body .contenedor .history {
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 35px;
+}
+
+body .contenedor .history .imagen {
+  width: 50%;
+}
+
+body .contenedor .history .imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+body .contenedor .history .descrip {
+  width: 50%;
+  margin-left: 35px;
+}
+
+body .contenedor .history .descrip h2 {
+  color: #f58323;
+}
+
+body .contenedor .actualidad {
+  max-width: 1100px;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  padding-bottom: 45px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body .contenedor .actualidad .imagen {
+  width: 50%;
+}
+
+body .contenedor .actualidad .imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+body .contenedor .actualidad .descrip {
+  width: 50%;
+  margin-right: 20px;
+}
+
+body .contenedor .actualidad .descrip h2 {
+  color: #f58323;
+}
+
+body .contenedor .boton {
+  text-align: center;
+}
+
+body .contenedor .boton .tittle h3 {
+  font-size: 26px;
+  color: black;
+}
+
+body .contenedor .boton .tittle img {
+  height: 50px;
+}
+
+body .contenedor .boton button {
+  background-color: #f58323;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+body .contenedor .boton button:hover {
+  background-color: black;
+}
+
+body .contenedor .titulo h2 {
+  color: black;
+  -webkit-text-decoration: underline 1px solid white;
+          text-decoration: underline 1px solid white;
+  font-size: 35px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+body .contenedor .titulo img {
+  height: 60px;
+  margin: 0px;
+  padding-bottom: 15px;
+}
+
+body .contenedor .botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+body .contenedor .botones button {
+  color: orange;
+  background: white;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 12px;
+  border: 0px;
+  padding: 7px;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .contenedor .botones button:hover {
+  color: burlywood;
+}
+
+body .contenedor .botones button.active {
+  background: #f58323;
+  color: white;
+}
+
+body .contenedor .empleados.categoria2 {
+  display: none;
+}
+
+body .contenedor .empleados.categoria3 {
+  display: none;
+}
+
+body .contenedor .empleados {
+  max-width: 1280px;
+  margin: auto;
+  background: #fff;
+  display: none;
+  margin-bottom: 40px;
+}
+
+body .contenedor .empleados .card-one {
+  width: 25%;
+  max-width: 420px;
+  margin: 15px 25px;
+  border-radius: 38px;
+  padding: 0;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+body .contenedor .empleados .card-one .single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 15px 0;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+body .contenedor .empleados .card-one .single img {
+  height: 235px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .contenedor .empleados .card-one .single img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+body .contenedor .empleados .card-one .rol {
+  margin-left: 25px;
+}
+
+body .contenedor .empleados .card-one .rol h2 {
+  color: black;
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+body .contenedor .empleados .card-one .rol h3 {
+  color: #f58323;
+  font-size: 15px;
+  margin: 0px;
+  max-width: 205px;
+}
+
+body .contenedor .empleados .card-one .rol p {
+  color: black;
+  font-size: 15px;
+  max-width: 230px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+body .contenedor .empleados .card-one .rol .contact1 {
+  margin-top: 0px;
+}
+
+body .contenedor .empleados .card-one .rol .contact1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+body .contenedor .empleados .card-one .rol .contact1 ul .fa.fa-whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .contenedor .empleados .card-one .rol .contact1 ul li {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  color: grey;
+}
+
+body .contenedor .empleados .card-one .rol .contact1 ul li a {
+  text-decoration: none;
+  color: #3E3C3C;
+  font-size: 14px;
+}
+
+body .contenedor .empleados .card-one .rol .contact {
+  margin-bottom: 10px;
+}
+
+body .contenedor .empleados .card-one .rol .contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+body .contenedor .empleados .card-one .rol .contact ul .fa.fa-whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: grey;
+}
+
+body .contenedor .empleados .card-one .rol .contact ul li {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  color: grey;
+}
+
+body .contenedor .empleados .card-one .rol .contact ul li a {
+  text-decoration: none;
+  color: #3E3C3C;
+  font-size: 14px;
+}
+
+body .contenedor .empleados .card-one .rol .contact ul li a:hover {
+  color: green;
+}
+
+body .contenedor .empleados.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  body .contenedor {
+    width: 90%;
+    margin: auto;
+  }
+  body .contenedor .history {
+    width: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0px;
+  }
+  body .contenedor .history .imagen {
+    width: 100%;
+    margin: auto;
+  }
+  body .contenedor .history .descrip {
+    width: 100%;
+    margin: auto;
+  }
+  body .contenedor .history .descrip p {
+    max-width: 320px;
+    font-size: 16px;
+  }
+  body .contenedor .actualidad {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  body .contenedor .actualidad .imagen {
+    width: 100%;
+  }
+  body .contenedor .actualidad .descrip {
+    width: 100%;
+  }
+  body .contenedor .actualidad .descrip p {
+    max-width: 330px;
+    font-size: 16px;
+  }
+  body .contenedor .boton .tittle h3 {
+    font-size: 22px;
+    text-align: center !important;
+  }
+  body .contenedor .boton .tittle button {
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px 11px;
+  }
+  body .contenedor .titulo {
+    margin-top: 15px;
+  }
+  body .contenedor .titulo h2 {
+    font-size: 28px;
+  }
+  body .contenedor .titulo img {
+    height: 40px;
+  }
+  body .contenedor .botones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .contenedor .empleados {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .contenedor .empleados .card-one {
+    width: 85%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  body .contenedor .empleados .card-one .rol {
+    margin-right: 10px;
+  }
+  body .contenedor .empleados .card-one a img {
+    height: 230px;
+    margin: auto;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body .contenedor .empleados .card-one {
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body .contenedor .botones {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .contenedor .botones button {
+    margin: 4px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,159 @@
+*{
+    list-style:none;
+    text-decoration: none;
+}
+body{
+    font-family: 'open sans';
+    .contenedor{
+        max-width: 1000px;
+        margin: auto;
+        .tarjeta{
+            // max-width: 1000px;
+            // margin: auto;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border-radius: 38px;
+            padding: 20px 5px 20px 5px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            .imagen{
+                overflow: hidden;
+                img{
+                height: 415px;
+                margin: auto;
+                object-fit: cover;
+                object-position: center;
+                transition: 1s;
+                box-sizing: border-box;
+                }
+            }
+            .rol{
+                max-width: 500px;
+                margin-left: 40px;
+                h2{
+                    color: black;
+                    font-size: 27px;
+                    margin-bottom: 8px;
+                }
+                h3{
+                    color: #f58323;
+                    font-size: 17px;
+                    margin:0px;
+                }
+                p{
+                    color: black;
+                    font-size: 16px;
+                    // width: 344px;
+                    // margin-top: 8px;
+                    // margin-bottom: 25px;
+                }
+                h5{
+                    color: grey;
+                    font-size: 16px;
+                    margin: 0px;
+                }
+                .contact{
+                    // display: flex;
+                    // flex-direction: row;
+                    // list-style: none;
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        margin: 0px;
+                        padding: 0px;
+                        .fa.fa-whatsapp{
+                            display: flex;
+                            align-items: center;
+                            color: green;
+                        }
+                        li{
+                            margin: 5px;
+                            display: flex;
+                            align-items: center;
+                            font-size: 19px;
+                            color: green;
+                            a{
+                                text-decoration: none;
+                                color:  #3E3C3C;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .contact1{
+                    margin-top: 0px;
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        margin: 0px;
+                        padding: 0px;
+                        .fa.fa-whatsapp{
+                            display: flex;
+                            align-items: center;
+                            // color: orange;
+                        }
+                        li{
+                            margin: 5px;
+                            display: flex;
+                            align-items: center;
+                            font-size: 19px;
+                            color: orange;
+                            a{
+                                text-decoration: none;
+                                color: #3E3C3C;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    body{
+        .contenedor{
+            width: 85%;
+            margin: auto;
+            .tarjeta{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                box-shadow: none;
+                margin-top: 0px;
+                padding: 0px;
+                .imagen{
+                    // text-align: center;
+                    width: 100%;
+                    margin: auto;
+                    img{
+                        height: 270px;
+                        // margin: auto;
+                        // width: 100%;
+                    }
+                }
+                .rol{
+                    width: 100%;
+                    margin: auto;
+                    h2{
+                        font-size: 21px;
+                    }
+                    h3{
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 15px;
+                        max-width: 350px;
+                    }
+                    .contact{
+                        font-size: 16px;
+                    }
+                    .contact1{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

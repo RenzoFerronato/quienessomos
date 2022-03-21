@@ -1,0 +1,405 @@
+*{
+    list-style:none;
+    text-decoration: none;
+}
+body{
+    // max-width: 1280px;
+    // margin: auto;
+    font-family: 'open sans';
+    .contenedor{
+        max-width: 1280px;
+        margin: auto;
+        .history{
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            padding-top: 35px;
+            .imagen{
+                width: 50%;
+                img{
+                    width: 100%;
+                    height: auto;
+                    border-radius: 30px;
+                }
+            }
+            .descrip{
+                width: 50%;
+                margin-left: 35px;
+                h2{
+                    color:#f58323;
+                }
+            }
+        }
+
+        .actualidad{
+            max-width: 1100px;
+            margin: 30px auto;
+            display: flex;
+            padding: 0px;
+            padding-bottom: 45px;
+            flex-direction: row-reverse;
+            .imagen{
+                width: 50%;
+                img{
+                    width: 100%;
+                    height: auto;
+                    border-radius: 30px;
+                }
+            }
+            .descrip{
+                width: 50%;
+                // margin-left: 35px;
+                margin-right: 20px;
+                h2{
+                    color: #f58323;
+                }
+            }
+        }
+        .boton{
+            text-align: center;
+            .tittle{
+                // display: flex;
+                // justify-content: center;
+                // align-items: center;
+                h3{
+                    font-size: 26px;
+                    color: black;
+                    // margin: 0px 30px;
+                }
+                img{
+                    height: 50px;
+                }
+            }
+            button{
+                background-color: #f58323;
+                color: white;
+                border: none;
+                border-radius: 3px;
+                font-size: 18px;
+                padding: 10px 15px;
+                outline: none;
+                cursor: pointer;
+                &:hover{
+                    background-color: black;
+                    // color: #f58323;
+                }
+            }
+        }
+        .titulo{
+            // text-align: center;
+            h2{
+                // color: #f58323;
+                color: black;
+                text-decoration: underline 1px solid white;
+                font-size: 35px;
+                margin-left: 5px;
+                margin-bottom: 5px;
+            }
+            img{
+                height: 60px;
+                margin: 0px;
+                padding-bottom: 15px;
+            }
+        }
+        .botones{
+            display: flex;
+            justify-content: flex-end;
+            // margin-bottom: 20px;
+            // max-width: 1100px !important;
+            margin: auto;
+            padding-bottom: 20px;
+            button{
+                color: orange;
+                // background: black;
+                background: white;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                font-size: 15px;
+                border-radius: 10px;
+                margin-left: 12px;
+                border: 0px;
+                padding: 7px;
+                cursor: pointer;
+                outline: none;
+                transition: .3s;
+                &:hover{
+                    color: burlywood;
+                    // background-color: #000000;
+                }
+                &.active{
+                    background: #f58323;
+                    color: white;
+                }
+            }
+        }
+        .empleados.categoria2{
+            display: none;
+            // display: flex;
+        }
+        .empleados.categoria3{
+            display: none;
+            // display: flex;
+        }
+        // .empleados.categoria3{
+        //     display: none;
+        // }
+        .empleados{
+            max-width: 1280px;
+            margin: auto;
+            // justify-content: flex-end;
+            // justify-content: center;
+            background: #fff;
+            display: none;
+            margin-bottom: 40px;
+            .card-one{
+                width: 25%;
+                max-width: 420px;
+                // margin-top: 10px;
+                // margin-left: 50px;
+                margin: 15px 25px;
+                border-radius: 38px;
+                padding: 0;
+                box-shadow: 0 0 20px rgba(0,0,0,0.1);
+                overflow: hidden;
+                .single{
+                    display: flex;
+                    width: 100%;
+                    box-sizing: border-box;
+                    margin: 15px 0;
+                    padding: 0 15px;
+                    overflow: hidden;
+                    img{
+                        height: 235px;
+                        width: 100%;
+                        display: block;
+                        text-align: center;
+                        object-fit: cover;
+                        object-position: center;
+                        transition: 1s;
+                        box-sizing: border-box;
+                        &:hover{
+                            // -webkit-transform:scale(1.1);
+                            // transform:scale(1.1);
+                            // transition: .5s;
+                            // filter: grayscale(80%);
+                            // -webkit-transform:scale(1.15);transform:scale(1.15);
+                            transition: 1s;
+                            transform: scale(1.15);
+
+                            // -webkit-transform: rotateY(180deg);
+                            // -webkit-transform-style: preserve-3d;
+                            // transform: rotateY(180deg);
+                            // transform-style: preserve-3d;
+                            // background: url(juanchota.jpg);
+                        }
+                    }
+                }
+                .rol{
+                    margin-left: 25px;
+                    h2{
+                        color: black;
+                        font-size: 22px;
+                        margin-top: 0px;
+                        margin-bottom: 2px;
+                    }
+                    h3{
+                        color: #f58323;
+                        font-size: 15px;
+                        margin:0px;
+                        max-width: 205px;
+                    }
+                    p{
+                        color: black;
+                        font-size: 15px;
+                        max-width: 230px;
+                        margin-top: 8px;
+                        margin-bottom: 8px;
+                    }
+                    .contact1{
+                        margin-top: 0px;
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            margin: 0px;
+                            padding: 0px;
+                            .fa.fa-whatsapp{
+                                display: flex;
+                                align-items: center;
+                                // color: orange;
+                            }
+                            li{
+                                margin: 5px;
+                                display: flex;
+                                align-items: center;
+                                font-size: 15px;
+                                color: grey;
+                                a{
+                                    text-decoration: none;
+                                    color: #3E3C3C;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                    .contact{
+                        margin-bottom: 10px;
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            margin: 0px;
+                            padding: 0px;
+                            .fa.fa-whatsapp{
+                                display: flex;
+                                align-items: center;
+                                color: grey;
+                            }
+                            li{
+                                margin: 5px;
+                                display: flex;
+                                align-items: center;
+                                font-size: 15px;
+                                color: grey;
+                                a{
+                                    text-decoration: none;
+                                    color: #3E3C3C;
+                                    font-size: 14px;
+                                    &:hover{
+                                        color: green;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.active{
+                display: flex;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        // width: 100%;
+        .contenedor{
+            width: 90%;
+            margin: auto;
+            .history{
+                width: 100%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                padding-top: 0px;
+                .imagen{
+                    width: 100%;
+                    margin: auto;
+                }
+                .descrip{
+                    width: 100%;
+                    margin: auto;
+                    p{
+                        max-width: 320px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .actualidad{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+                padding-bottom: 0px;
+                .imagen{
+                    width: 100%;
+                }
+                .descrip{
+                    width: 100%;
+                    // margin-left: 40px;
+                    p{
+                        max-width: 330px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .boton{
+                .tittle{
+                    h3{
+                        font-size: 22px;
+                        text-align: center !important;
+                    }
+                    button{
+                        border-radius: 10px;
+                        font-size: 15px;
+                        padding: 8px 11px;
+                    }
+                }
+            }
+            .titulo{
+                margin-top: 15px;
+                h2{
+                    font-size: 28px;
+                }
+                img{
+                    height: 40px;
+                }
+            }
+            .botones{
+                display: flex;
+                justify-content: center;
+            }
+            .empleados{
+                flex-direction: column;
+                .card-one{
+                    width: 85%;
+                    margin: auto;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    .rol{
+                        margin-right: 10px;
+                    }
+                    a{
+                    // box-sizing: border-box;
+                    // margin: 15px 0;
+                    // padding: 0 15px;
+                    // overflow: hidden;
+                        img{
+                            height: 230px;
+                            margin: auto;
+                            width: 90%;
+                            // object-fit: cover;
+                            // object-position: center;
+                            // transition: 1s;
+                            // box-sizing: border-box;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body{
+        .contenedor{
+            .empleados{
+                .card-one{
+                    width: 100%;
+                    margin: auto;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    body{
+        .contenedor{
+            .botones{
+                flex-direction: column;
+                button{
+                    margin: 4px;
+                }
+            }
+        }
+    }
+}

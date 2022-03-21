@@ -1,0 +1,206 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'open sans';
+}
+
+body .contenedor {
+  max-width: 1000px;
+  margin: auto;
+}
+
+body .contenedor .tarjeta {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 38px;
+  padding: 20px 5px 20px 5px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+body .contenedor .tarjeta .imagen {
+  overflow: hidden;
+}
+
+body .contenedor .tarjeta .imagen img {
+  height: 415px;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .contenedor .tarjeta .rol {
+  max-width: 500px;
+  margin-left: 40px;
+}
+
+body .contenedor .tarjeta .rol h2 {
+  color: black;
+  font-size: 27px;
+  margin-bottom: 8px;
+}
+
+body .contenedor .tarjeta .rol h3 {
+  color: #f58323;
+  font-size: 17px;
+  margin: 0px;
+}
+
+body .contenedor .tarjeta .rol p {
+  color: black;
+  font-size: 16px;
+}
+
+body .contenedor .tarjeta .rol h5 {
+  color: grey;
+  font-size: 16px;
+  margin: 0px;
+}
+
+body .contenedor .tarjeta .rol .contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+body .contenedor .tarjeta .rol .contact ul .fa.fa-whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: green;
+}
+
+body .contenedor .tarjeta .rol .contact ul li {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 19px;
+  color: green;
+}
+
+body .contenedor .tarjeta .rol .contact ul li a {
+  text-decoration: none;
+  color: #3E3C3C;
+  font-size: 15px;
+}
+
+body .contenedor .tarjeta .rol .contact1 {
+  margin-top: 0px;
+}
+
+body .contenedor .tarjeta .rol .contact1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+body .contenedor .tarjeta .rol .contact1 ul .fa.fa-whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .contenedor .tarjeta .rol .contact1 ul li {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 19px;
+  color: orange;
+}
+
+body .contenedor .tarjeta .rol .contact1 ul li a {
+  text-decoration: none;
+  color: #3E3C3C;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  body .contenedor {
+    width: 85%;
+    margin: auto;
+  }
+  body .contenedor .tarjeta {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  body .contenedor .tarjeta .imagen {
+    width: 100%;
+    margin: auto;
+  }
+  body .contenedor .tarjeta .imagen img {
+    height: 270px;
+  }
+  body .contenedor .tarjeta .rol {
+    width: 100%;
+    margin: auto;
+  }
+  body .contenedor .tarjeta .rol h2 {
+    font-size: 21px;
+  }
+  body .contenedor .tarjeta .rol h3 {
+    font-size: 16px;
+  }
+  body .contenedor .tarjeta .rol p {
+    font-size: 15px;
+    max-width: 350px;
+  }
+  body .contenedor .tarjeta .rol .contact {
+    font-size: 16px;
+  }
+  body .contenedor .tarjeta .rol .contact1 {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=juancito.css.map */
