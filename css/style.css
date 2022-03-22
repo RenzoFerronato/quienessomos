@@ -101,6 +101,10 @@ body .contenedor .boton button:hover {
   background-color: black;
 }
 
+body .contenedor .titulo {
+  padding-top: 50px;
+}
+
 body .contenedor .titulo h2 {
   color: black;
   -webkit-text-decoration: underline 1px solid white;
@@ -111,6 +115,21 @@ body .contenedor .titulo h2 {
 }
 
 body .contenedor .titulo img {
+  height: 60px;
+  margin: 0px;
+  padding-bottom: 15px;
+}
+
+body .contenedor .titulo1 h2 {
+  color: black;
+  -webkit-text-decoration: underline 1px solid white;
+          text-decoration: underline 1px solid white;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+body .contenedor .titulo1 img {
   height: 60px;
   margin: 0px;
   padding-bottom: 15px;
@@ -394,7 +413,7 @@ body .contenedor .empleados.active {
     padding: 8px 11px;
   }
   body .contenedor .titulo {
-    margin-top: 15px;
+    padding-top: 40px;
   }
   body .contenedor .titulo h2 {
     font-size: 28px;
@@ -438,6 +457,15 @@ body .contenedor .empleados.active {
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+  body .contenedor .botones {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .contenedor .botones button {
+    margin: 4px;
   }
 }
 

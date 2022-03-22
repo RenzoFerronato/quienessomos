@@ -86,12 +86,28 @@ body{
             }
         }
         .titulo{
-            // text-align: center;
+            padding-top: 50px;
             h2{
                 // color: #f58323;
                 color: black;
                 text-decoration: underline 1px solid white;
                 font-size: 35px;
+                margin-left: 5px;
+                margin-bottom: 5px;
+            }
+            img{
+                height: 60px;
+                margin: 0px;
+                padding-bottom: 15px;
+            }
+        }
+        .titulo1{
+            // text-align: center;
+            h2{
+                // color: #f58323;
+                color: black;
+                text-decoration: underline 1px solid white;
+                font-size: 30px;
                 margin-left: 5px;
                 margin-bottom: 5px;
             }
@@ -334,7 +350,7 @@ body{
                 }
             }
             .titulo{
-                margin-top: 15px;
+                padding-top: 40px;
                 h2{
                     font-size: 28px;
                 }
@@ -386,6 +402,12 @@ body{
                     margin: auto;
                     margin-top: 15px;
                     margin-bottom: 15px;
+                }
+            }
+            .botones{
+                flex-direction: column;
+                button{
+                    margin: 4px;
                 }
             }
         }
