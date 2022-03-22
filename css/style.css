@@ -147,7 +147,7 @@ body .contenedor .botones {
 }
 
 body .contenedor .botones button {
-  color: orange;
+  color: black;
   background: white;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -163,11 +163,11 @@ body .contenedor .botones button {
 }
 
 body .contenedor .botones button:hover {
-  color: burlywood;
+  color: #f58323;
 }
 
 body .contenedor .botones button.active {
-  background: #f58323;
+  background: rgba(0, 0, 0, 0.3);
   color: white;
 }
 

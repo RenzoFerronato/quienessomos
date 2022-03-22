@@ -125,7 +125,7 @@ body{
             margin: auto;
             padding-bottom: 20px;
             button{
-                color: orange;
+                color: black;
                 // background: black;
                 background: white;
                 box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -138,11 +138,13 @@ body{
                 outline: none;
                 transition: .3s;
                 &:hover{
-                    color: burlywood;
+                    color: #f58323;
                     // background-color: #000000;
                 }
                 &.active{
-                    background: #f58323;
+                    // background: #f58323;
+                    // color: white;
+                    background: rgba(0, 0, 0, 0.3);
                     color: white;
                 }
             }

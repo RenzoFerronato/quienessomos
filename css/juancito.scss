@@ -116,6 +116,11 @@ body{
         .contenedor{
             width: 85%;
             margin: auto;
+            padding: 0px 18px;
+            border-radius: 25px;
+            -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border: 5px solid #F2E9E9;
             .tarjeta{
                 width: 100%;
                 display: flex;
@@ -129,6 +134,7 @@ body{
                     margin: auto;
                     img{
                         height: auto;
+                        width: 100%;
                     }
                 }
                 .rol{
@@ -146,6 +152,7 @@ body{
                     }
                     .contact{
                         font-size: 16px;
+                        margin-bottom: 15px;
                     }
                     .contact1{
                         font-size: 16px;
