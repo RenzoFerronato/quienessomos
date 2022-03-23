@@ -26,8 +26,7 @@ body .contenedor .tarjeta {
           justify-content: center;
   border-radius: 38px;
   padding: 20px 5px 20px 5px;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 3px solid #F2E9E9;
 }
 
 body .contenedor .tarjeta .imagen {
@@ -179,6 +178,7 @@ body .contenedor .tarjeta .rol .contact1 ul li a {
             box-shadow: none;
     margin-top: 0px;
     padding: 0px;
+    border: none;
   }
   body .contenedor .tarjeta .imagen {
     width: 100%;
@@ -193,14 +193,13 @@ body .contenedor .tarjeta .rol .contact1 ul li a {
     margin: auto;
   }
   body .contenedor .tarjeta .rol h2 {
-    font-size: 21px;
+    font-size: 23px;
   }
   body .contenedor .tarjeta .rol h3 {
-    font-size: 16px;
+    font-size: 17px;
   }
   body .contenedor .tarjeta .rol p {
     font-size: 15px;
-    max-width: 350px;
   }
   body .contenedor .tarjeta .rol .contact {
     font-size: 16px;

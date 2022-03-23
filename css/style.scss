@@ -126,7 +126,7 @@ body{
             padding-bottom: 20px;
             button{
                 color: black;
-                // background: black;
+                // // background: black;
                 background: white;
                 box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
                 font-size: 15px;
@@ -143,9 +143,11 @@ body{
                 }
                 &.active{
                     // background: #f58323;
-                    // color: white;
-                    background: rgba(0, 0, 0, 0.3);
                     color: white;
+                    // background: rgba(0, 0, 0, 0.3);
+                    background-color: #8E8472;
+                    // background-color: #BDBBBB;
+                    // color: #f58323;
                 }
             }
         }
@@ -367,7 +369,7 @@ body{
             .empleados{
                 flex-direction: column;
                 .card-one{
-                    width: 85%;
+                    width: 90%;
                     margin: auto;
                     margin-top: 15px;
                     margin-bottom: 15px;

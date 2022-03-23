@@ -167,8 +167,8 @@ body .contenedor .botones button:hover {
 }
 
 body .contenedor .botones button.active {
-  background: rgba(0, 0, 0, 0.3);
   color: white;
+  background-color: #8E8472;
 }
 
 body .contenedor .empleados.categoria2 {
@@ -436,7 +436,7 @@ body .contenedor .empleados.active {
             flex-direction: column;
   }
   body .contenedor .empleados .card-one {
-    width: 85%;
+    width: 90%;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
