@@ -5,7 +5,9 @@
 body{
     // max-width: 1280px;
     // margin: auto;
-    font-family: 'open sans';
+    // font-family: 'Roboto, Sans Serif';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     .contenedor{
         max-width: 1280px;
         margin: auto;
@@ -27,6 +29,9 @@ body{
                 margin-left: 35px;
                 h2{
                     color:#f58323;
+                }
+                p{
+                    line-height: 1.5;
                 }
             }
         }
@@ -52,6 +57,9 @@ body{
                 margin-right: 20px;
                 h2{
                     color: #f58323;
+                }
+                p{
+                    line-height: 1.5;
                 }
             }
         }
@@ -89,7 +97,7 @@ body{
             padding-top: 50px;
             h2{
                 // color: #f58323;
-                color: black;
+                color: #3E3C3C;
                 text-decoration: underline 1px solid white;
                 font-size: 35px;
                 margin-left: 5px;
@@ -105,7 +113,7 @@ body{
             // text-align: center;
             h2{
                 // color: #f58323;
-                color: black;
+                color: #3E3C3C;
                 text-decoration: underline 1px solid white;
                 font-size: 30px;
                 margin-left: 5px;
@@ -170,60 +178,64 @@ body{
             background: #fff;
             display: none;
             margin-bottom: 40px;
+            flex-wrap: wrap;
+            .card-one.style{
+                width: 22.2%;
+            }
             .card-one{
-                width: 25%;
-                max-width: 420px;
-                // margin-top: 10px;
-                // margin-left: 50px;
-                margin: 15px 25px;
-                border-radius: 38px;
-                padding: 0;
-                box-shadow: 0 0 20px rgba(0,0,0,0.1);
-                overflow: hidden;
-                .single{
-                    display: flex;
-                    width: 100%;
-                    box-sizing: border-box;
-                    margin: 15px 0;
-                    padding: 0 15px;
+                    width: 22%;
+                    // max-width: 420px;
+                    // margin-top: 10px;
+                    // margin-left: 50px;
+                    margin: 15px 19px;
+                    border-radius: 38px;
+                    padding: 0;
+                    box-shadow: 0 0 20px rgba(0,0,0,0.1);
                     overflow: hidden;
-                    img{
-                        height: 235px;
+                    .single{
+                        display: flex;
                         width: 100%;
-                        display: block;
-                        text-align: center;
-                        object-fit: cover;
-                        object-position: center;
-                        transition: 1s;
                         box-sizing: border-box;
-                        &:hover{
-                            // -webkit-transform:scale(1.1);
-                            // transform:scale(1.1);
-                            // transition: .5s;
-                            // filter: grayscale(80%);
-                            // -webkit-transform:scale(1.15);transform:scale(1.15);
+                        margin: 15px 0;
+                        padding: 0 15px;
+                        overflow: hidden;
+                        img{
+                            height: 235px;
+                            width: 100%;
+                            display: block;
+                            text-align: center;
+                            object-fit: cover;
+                            object-position: center;
                             transition: 1s;
-                            transform: scale(1.15);
+                            box-sizing: border-box;
+                            &:hover{
+                                // -webkit-transform:scale(1.1);
+                                // transform:scale(1.1);
+                                // transition: .5s;
+                                // filter: grayscale(80%);
+                                // -webkit-transform:scale(1.15);transform:scale(1.15);
+                                transition: 1s;
+                                transform: scale(1.15);
 
-                            // -webkit-transform: rotateY(180deg);
-                            // -webkit-transform-style: preserve-3d;
-                            // transform: rotateY(180deg);
-                            // transform-style: preserve-3d;
-                            // background: url(juanchota.jpg);
+                                // -webkit-transform: rotateY(180deg);
+                                // -webkit-transform-style: preserve-3d;
+                                // transform: rotateY(180deg);
+                                // transform-style: preserve-3d;
+                                // background: url(juanchota.jpg);
+                            }
                         }
                     }
-                }
                 .rol{
                     margin-left: 25px;
                     h2{
-                        color: black;
+                        color: #6E6E6E;
                         font-size: 22px;
                         margin-top: 0px;
-                        margin-bottom: 2px;
+                        margin-bottom: 5px;
                     }
                     h3{
                         color: #f58323;
-                        font-size: 15px;
+                        font-size: 14px;
                         margin:0px;
                         max-width: 205px;
                     }
@@ -364,10 +376,13 @@ body{
             }
             .botones{
                 display: flex;
-                justify-content: center;
+                // justify-content: center;
             }
             .empleados{
                 flex-direction: column;
+                .card-one.style{
+                    width: 90%;
+                }
                 .card-one{
                     width: 90%;
                     margin: auto;
