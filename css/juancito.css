@@ -49,6 +49,7 @@ body .contenedor .tarjeta .imagen img {
 body .contenedor .tarjeta .rol {
   max-width: 500px;
   margin-left: 40px;
+  margin-right: 25px;
 }
 
 body .contenedor .tarjeta .rol h2 {
@@ -194,6 +195,7 @@ body .contenedor .tarjeta .rol .contact1 ul li a {
   }
   body .contenedor .tarjeta .rol h2 {
     font-size: 23px;
+    margin-bottom: 3px;
   }
   body .contenedor .tarjeta .rol h3 {
     font-size: 17px;

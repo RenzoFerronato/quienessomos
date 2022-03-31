@@ -2,6 +2,9 @@
     list-style:none;
     text-decoration: none;
 }
+html{
+    user-select: none;
+}
 body{
     // max-width: 1280px;
     // margin: auto;
