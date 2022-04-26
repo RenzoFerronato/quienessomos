@@ -56,7 +56,7 @@ body{
                     margin: 0px;
                 }
                 .contact{
-                    // display: flex;
+                    display: flex;
                     // flex-direction: row;
                     // list-style: none;
                     ul{
@@ -64,6 +64,7 @@ body{
                         align-items: center;
                         margin: 0px;
                         padding: 0px;
+                        margin-right: 20px;
                         .fa.fa-whatsapp{
                             display: flex;
                             align-items: center;

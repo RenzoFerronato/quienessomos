@@ -75,6 +75,12 @@ body .contenedor .tarjeta .rol h5 {
   margin: 0px;
 }
 
+body .contenedor .tarjeta .rol .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 body .contenedor .tarjeta .rol .contact ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,6 +90,7 @@ body .contenedor .tarjeta .rol .contact ul {
           align-items: center;
   margin: 0px;
   padding: 0px;
+  margin-right: 20px;
 }
 
 body .contenedor .tarjeta .rol .contact ul .fa.fa-whatsapp {
