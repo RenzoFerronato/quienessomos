@@ -3,13 +3,6 @@
   text-decoration: none;
 }
 
-html {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -206,10 +199,6 @@ body .contenedor .empleados {
       flex-wrap: wrap;
 }
 
-body .contenedor .empleados .card-one.style {
-  width: 22.2%;
-}
-
 body .contenedor .empleados .card-one {
   width: 22%;
   margin: 15px 19px;
@@ -255,7 +244,8 @@ body .contenedor .empleados .card-one .single img:hover {
 }
 
 body .contenedor .empleados .card-one .rol {
-  margin-left: 25px;
+  margin-left: 18px;
+  margin-bottom: 20px;
 }
 
 body .contenedor .empleados .card-one .rol h2 {
@@ -305,7 +295,7 @@ body .contenedor .empleados .card-one .rol .contact1 ul .fa.fa-whatsapp {
 }
 
 body .contenedor .empleados .card-one .rol .contact1 ul li {
-  margin: 5px;
+  margin-right: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,7 +313,7 @@ body .contenedor .empleados .card-one .rol .contact1 ul li a {
 }
 
 body .contenedor .empleados .card-one .rol .contact {
-  margin-bottom: 10px;
+  margin-top: 8px;
 }
 
 body .contenedor .empleados .card-one .rol .contact ul {
@@ -348,7 +338,7 @@ body .contenedor .empleados .card-one .rol .contact ul .fa.fa-whatsapp {
 }
 
 body .contenedor .empleados .card-one .rol .contact ul li {
-  margin: 5px;
+  margin-right: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -427,6 +417,10 @@ body .contenedor .empleados.active {
     font-size: 17px;
     line-height: 1.3;
   }
+  body .contenedor .boton {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   body .contenedor .boton .tittle h3 {
     font-size: 22px;
     text-align: center !important;
@@ -449,6 +443,9 @@ body .contenedor .empleados.active {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   body .contenedor .empleados {
     -webkit-box-orient: vertical;
@@ -467,6 +464,7 @@ body .contenedor .empleados.active {
   }
   body .contenedor .empleados .card-one .rol {
     margin-right: 10px;
+    margin-left: 22px;
   }
   body .contenedor .empleados .card-one .rol p {
     margin-top: 10px;
