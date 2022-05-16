@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-    <title>Ricardo Sader</title>
-    <link rel="icon" href="../imagenes/logo.ico" type="image/png">
-    <link rel="stylesheet" href="../css/juancito.css">
-</head>
-<body>
-    <div  class="contenedor">
+<?include('../header.php');?>
+    <div  class="contenedor empleado">
         <div class="tarjeta">
             <div class="imagen">
                 <!-- <img src="loquito.png"> -->
@@ -51,4 +39,4 @@
         </div> 
     </div>
 
-</body>
+<?include('../footer.php');?>
