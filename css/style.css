@@ -239,8 +239,8 @@ body .contenedor .empleados .card-one .single img {
 body .contenedor .empleados .card-one .single img:hover {
   -webkit-transition: 1s;
   transition: 1s;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 body .contenedor .empleados .card-one .rol {
@@ -475,7 +475,7 @@ body .contenedor .empleados.active {
     margin-bottom: 20px;
   }
   body .contenedor .empleados .card-one a img {
-    height: 230px;
+    height: 270px;
     margin: auto;
     width: 90%;
   }
