@@ -75,92 +75,41 @@ body .contenedor .tarjeta .rol h5 {
   margin: 0px;
 }
 
-body .contenedor .tarjeta .rol .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+body .contenedor .tarjeta .rol a:hover {
+  color: #949494;
+  text-decoration: underline;
 }
 
-body .contenedor .tarjeta .rol .contact ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0px;
-  padding: 0px;
-  margin-right: 20px;
-}
-
-body .contenedor .tarjeta .rol .contact ul .fa.fa-whatsapp {
+body .contenedor .tarjeta .rol a .generica {
+  max-width: 230px;
+  margin: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: green;
-}
-
-body .contenedor .tarjeta .rol .contact ul li {
-  margin: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 19px;
-  color: green;
-}
-
-body .contenedor .tarjeta .rol .contact ul li a {
   text-decoration: none;
   color: #3E3C3C;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+body .contenedor .tarjeta .rol a .generica .fa.fa-whatsapp {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: green;
+  margin-right: 6px;
+}
+
+body .contenedor .tarjeta .rol a .generica .fa.fa-envelope {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 15px;
-}
-
-body .contenedor .tarjeta .rol .contact1 {
-  margin-top: 0px;
-}
-
-body .contenedor .tarjeta .rol .contact1 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0px;
-  padding: 0px;
-}
-
-body .contenedor .tarjeta .rol .contact1 ul .fa.fa-whatsapp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .contenedor .tarjeta .rol .contact1 ul li {
-  margin: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 19px;
   color: orange;
-}
-
-body .contenedor .tarjeta .rol .contact1 ul li a {
-  text-decoration: none;
-  color: #3E3C3C;
-  font-size: 15px;
+  margin-right: 6px;
 }
 
 @media screen and (max-width: 500px) {

@@ -55,58 +55,30 @@ body{
                     font-size: 16px;
                     margin: 0px;
                 }
-                .contact{
-                    display: flex;
-                    // flex-direction: row;
-                    // list-style: none;
-                    ul{
-                        display: flex;
-                        align-items: center;
-                        margin: 0px;
-                        padding: 0px;
-                        margin-right: 20px;
-                        .fa.fa-whatsapp{
-                            display: flex;
-                            align-items: center;
-                            color: green;
-                        }
-                        li{
-                            margin: 5px;
-                            display: flex;
-                            align-items: center;
-                            font-size: 19px;
-                            color: green;
-                            a{
-                                text-decoration: none;
-                                color:  #3E3C3C;
-                                font-size: 15px;
-                            }
-                        }
+                a{
+                    &:hover{
+                        color: #949494;
+                        text-decoration: underline;
                     }
-                }
-                .contact1{
-                    margin-top: 0px;
-                    ul{
+                    .generica{
+                        max-width: 230px;
+                        margin: 3px;
                         display: flex;
                         align-items: center;
-                        margin: 0px;
-                        padding: 0px;
+                        text-decoration: none;
+                        color: #3E3C3C;
+                        font-size: 16px;
+                        margin-top: 6px;
                         .fa.fa-whatsapp{
-                            display: flex;
                             align-items: center;
-                            // color: orange;
+                            color: green;
+                            margin-right: 6px;
                         }
-                        li{
-                            margin: 5px;
-                            display: flex;
+                        .fa.fa-envelope{
                             align-items: center;
-                            font-size: 19px;
+                            font-size: 15px;
                             color: orange;
-                            a{
-                                text-decoration: none;
-                                color: #3E3C3C;
-                                font-size: 15px;
-                            }
+                            margin-right: 6px;
                         }
                     }
                 }

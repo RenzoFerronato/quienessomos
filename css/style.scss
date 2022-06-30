@@ -243,7 +243,8 @@ body{
                         }
                     }
                     .rol{
-                        margin-left: 18px;
+                        // margin-left: 18px;
+                        margin-left: 16px;
                         margin-bottom: 20px;
                         h2{
                             // color: black;
@@ -275,61 +276,30 @@ body{
                             margin-top: 0px;
                             margin-bottom: 8px;
                         }
-                        .contact1{
-                            margin-top: 0px;
-                            ul{
-                                display: flex;
-                                align-items: center;
-                                margin: 0px;
-                                padding: 0px;
-                                .fa.fa-whatsapp{
-                                    display: flex;
-                                    align-items: center;
-                                    // color: orange;
-                                }
-                                li{
-                                    // margin: 5px;
-                                    margin-right: 6px;
-                                    display: flex;
-                                    align-items: center;
-                                    font-size: 15px;
-                                    color: grey;
-                                    
-                                    a{
-                                        text-decoration: none;
-                                        color: #3E3C3C;
-                                        font-size: 14px;
-                                    }
-                                }
+                        a{
+                            &:hover{
+                                color: #949494;
+                                text-decoration: underline;
                             }
-                        }
-                        .contact{
-                            margin-top: 8px;
-                            ul{
+                            .generica{
+                                font-size: 13.5px;
+                                max-width: 230px;
+                                margin: 3px;
                                 display: flex;
-                                align-items: center;
-                                margin: 0px;
-                                padding: 0px;
+                                text-decoration: none;
+                                color: #3E3C3C;
+                                font-size: 14px;
+                                margin-top: 6px;
                                 .fa.fa-whatsapp{
-                                    display: flex;
                                     align-items: center;
-                                    color: grey;
-                                }
-                                li{
-                                    // margin: 5px;
+                                    color: green;
                                     margin-right: 6px;
-                                    display: flex;
+                                }
+                                .fa.fa-envelope{
                                     align-items: center;
                                     font-size: 15px;
                                     color: grey;
-                                    a{
-                                        text-decoration: none;
-                                        color: #3E3C3C;
-                                        font-size: 14px;
-                                        &:hover{
-                                            color: green;
-                                        }
-                                    }
+                                    margin-right: 6px;
                                 }
                             }
                         }
