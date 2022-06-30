@@ -162,14 +162,14 @@ body{
                 }
             }
         }
-        .empleados.categoria2{
-            display: none;
-            // display: flex;
-        }
-        .empleados.categoria3{
-            display: none;
-            // display: flex;
-        }
+        // .empleados.categoria2{
+        //     display: none;
+        //     // display: flex;
+        // }
+        // .empleados.categoria3{
+        //     display: none;
+        //     // display: flex;
+        // }
         // .empleados.categoria3{
         //     display: none;
         // }
@@ -179,10 +179,27 @@ body{
             // justify-content: flex-end;
             // justify-content: center;
             background: #fff;
-            display: none;
+            // display: none;
+            // display: flex;
             margin-bottom: 40px;
             flex-wrap: wrap;
-            .card-one{
+            .titulo{
+                display: flex;
+                // flex-direction: row-reverse;
+                flex-wrap: wrap-reverse;
+                padding-top: 5px;
+                padding-bottom: 15px;
+                .title{
+                    font-size: 22px;
+                }
+                img{
+                    order: -1;
+                }
+            }
+            .cards{
+                display: flex;
+                flex-wrap: wrap;
+                .card-one{
                     width: 22%;
                     // max-width: 420px;
                     // margin-top: 10px;
@@ -200,7 +217,7 @@ body{
                         padding: 0 15px;
                         overflow: hidden;
                         img{
-                            height: 235px;
+                            height: 260px;
                             width: 100%;
                             display: block;
                             text-align: center;
@@ -225,80 +242,93 @@ body{
                             }
                         }
                     }
-                .rol{
-                    margin-left: 18px;
-                    margin-bottom: 20px;
-                    h2{
-                        color: #6E6E6E;
-                        font-size: 22px;
-                        margin-top: 0px;
-                        margin-bottom: 5px;
-                    }
-                    h3{
-                        color: #f58323;
-                        font-size: 14px;
-                        margin:0px;
-                        max-width: 205px;
-                    }
-                    p{
-                        color: black;
-                        font-size: 15px;
-                        max-width: 230px;
-                        margin-top: 8px;
-                        margin-bottom: 8px;
-                    }
-                    .contact1{
-                        margin-top: 0px;
-                        ul{
-                            display: flex;
-                            align-items: center;
-                            margin: 0px;
-                            padding: 0px;
-                            .fa.fa-whatsapp{
+                    .rol{
+                        margin-left: 18px;
+                        margin-bottom: 20px;
+                        h2{
+                            // color: black;
+                            color:  #6E6E6E;
+                            font-size: 22px;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                        }
+                        h4{
+                            // color: #777474;
+                            color:  #949494;
+                            font-size: 14px;
+                            margin-top: 10px;
+                            margin-bottom: 2px;
+                            font-style: italic; 
+                        }
+                        h3{
+                            color: #f58323;
+                            font-size: 15px;
+                            // margin:0px;
+                            max-width: 205px;
+                            // margin-bottom: 5px;
+                            margin: 0px 0px 8px 0px;
+                        }
+                        p{
+                            color: black;
+                            font-size: 15px;
+                            max-width: 230px;
+                            margin-top: 0px;
+                            margin-bottom: 8px;
+                        }
+                        .contact1{
+                            margin-top: 0px;
+                            ul{
                                 display: flex;
                                 align-items: center;
-                                // color: orange;
-                            }
-                            li{
-                                // margin: 5px;
-                                margin-right: 6px;
-                                display: flex;
-                                align-items: center;
-                                font-size: 15px;
-                                color: grey;
-                                a{
-                                    text-decoration: none;
-                                    color: #3E3C3C;
-                                    font-size: 14px;
+                                margin: 0px;
+                                padding: 0px;
+                                .fa.fa-whatsapp{
+                                    display: flex;
+                                    align-items: center;
+                                    // color: orange;
+                                }
+                                li{
+                                    // margin: 5px;
+                                    margin-right: 6px;
+                                    display: flex;
+                                    align-items: center;
+                                    font-size: 15px;
+                                    color: grey;
+                                    
+                                    a{
+                                        text-decoration: none;
+                                        color: #3E3C3C;
+                                        font-size: 14px;
+                                    }
                                 }
                             }
                         }
-                    }
-                    .contact{
-                        margin-top: 8px;
-                        ul{
-                            display: flex;
-                            align-items: center;
-                            margin: 0px;
-                            padding: 0px;
-                            .fa.fa-whatsapp{
+                        .contact{
+                            margin-top: 8px;
+                            ul{
                                 display: flex;
                                 align-items: center;
-                                color: grey;
-                            }
-                            li{
-                                // margin: 5px;
-                                margin-right: 6px;
-                                display: flex;
-                                align-items: center;
-                                font-size: 15px;
-                                color: grey;
-                                a{
-                                    text-decoration: none;
-                                    color: #3E3C3C;
-                                    font-size: 14px;
-                                    &:hover{
-                                        color: green;
+                                margin: 0px;
+                                padding: 0px;
+                                .fa.fa-whatsapp{
+                                    display: flex;
+                                    align-items: center;
+                                    color: grey;
+                                }
+                                li{
+                                    // margin: 5px;
+                                    margin-right: 6px;
+                                    display: flex;
+                                    align-items: center;
+                                    font-size: 15px;
+                                    color: grey;
+                                    a{
+                                        text-decoration: none;
+                                        color: #3E3C3C;
+                                        font-size: 14px;
+                                        &:hover{
+                                            color: green;
+                                        }
                                     }
                                 }
                             }
@@ -306,9 +336,9 @@ body{
                     }
                 }
             }
-            &.active{
-                display: flex;
-            }
+        }
+        &.active{
+            display: flex;
         }
     }
 }
@@ -387,39 +417,52 @@ body{
             }
             .empleados{
                 flex-direction: column;
-                .card-one.style{
-                    width: 90%;
-                }
-                .card-one{
-                    width: 90%;
-                    margin: auto;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                    .rol{
-                        margin-right: 10px;
-                        margin-left: 22px;
-                        p{
-                            margin-top: 10px;
-                            margin-bottom: 10px;
-                            margin-right: 15px;
-                        }
-                        .contact{
-                            margin-bottom: 20px;
-                        }
+                flex-wrap: wrap;
+                .titulo{
+                    align-items: center;
+                    .title{
+                        margin: 0px;
                     }
-                    a{
-                    // box-sizing: border-box;
-                    // margin: 15px 0;
-                    // padding: 0 15px;
-                    // overflow: hidden;
-                        img{
-                            height: 270px;
-                            margin: auto;
-                            width: 90%;
-                            // object-fit: cover;
-                            // object-position: center;
-                            // transition: 1s;
-                            // box-sizing: border-box;
+                    img{
+                        padding: 0px;
+                    }
+                }
+                .cards{
+                    margin-bottom: 10px;
+                    .card-one{
+                        width: 90%;
+                        margin: auto;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        .rol{
+                            margin-right: 10px;
+                            margin-left: 22px;
+                            p{
+                                margin-top: 0px;
+                                margin-bottom: 10px;
+                                margin-right: 15px;
+                            }
+                            h3{
+                                max-width: 260px;
+                            }
+                            .contact{
+                                margin-bottom: 20px;
+                            }
+                        }
+                        a{
+                        // box-sizing: border-box;
+                        // margin: 15px 0;
+                        // padding: 0 15px;
+                        // overflow: hidden;
+                            img{
+                                height: 270px;
+                                margin: auto;
+                                width: 90%;
+                                // object-fit: cover;
+                                // object-position: center;
+                                // transition: 1s;
+                                // box-sizing: border-box;
+                            }
                         }
                     }
                 }

@@ -181,25 +181,44 @@ body .contenedor .botones button.active {
   background-color: #f58323;
 }
 
-body .contenedor .empleados.categoria2 {
-  display: none;
-}
-
-body .contenedor .empleados.categoria3 {
-  display: none;
-}
-
 body .contenedor .empleados {
   max-width: 1280px;
   margin: auto;
   background: #fff;
-  display: none;
   margin-bottom: 40px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-body .contenedor .empleados .card-one {
+body .contenedor .empleados .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+body .contenedor .empleados .titulo .title {
+  font-size: 22px;
+}
+
+body .contenedor .empleados .titulo img {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+body .contenedor .empleados .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .contenedor .empleados .cards .card-one {
   width: 22%;
   margin: 15px 19px;
   border-radius: 38px;
@@ -209,7 +228,7 @@ body .contenedor .empleados .card-one {
   overflow: hidden;
 }
 
-body .contenedor .empleados .card-one .single {
+body .contenedor .empleados .cards .card-one .single {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,8 +240,8 @@ body .contenedor .empleados .card-one .single {
   overflow: hidden;
 }
 
-body .contenedor .empleados .card-one .single img {
-  height: 235px;
+body .contenedor .empleados .cards .card-one .single img {
+  height: 260px;
   width: 100%;
   display: block;
   text-align: center;
@@ -236,45 +255,53 @@ body .contenedor .empleados .card-one .single img {
           box-sizing: border-box;
 }
 
-body .contenedor .empleados .card-one .single img:hover {
+body .contenedor .empleados .cards .card-one .single img:hover {
   -webkit-transition: 1s;
   transition: 1s;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-body .contenedor .empleados .card-one .rol {
+body .contenedor .empleados .cards .card-one .rol {
   margin-left: 18px;
   margin-bottom: 20px;
 }
 
-body .contenedor .empleados .card-one .rol h2 {
+body .contenedor .empleados .cards .card-one .rol h2 {
   color: #6E6E6E;
   font-size: 22px;
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
-body .contenedor .empleados .card-one .rol h3 {
-  color: #f58323;
+body .contenedor .empleados .cards .card-one .rol h4 {
+  color: #949494;
   font-size: 14px;
-  margin: 0px;
-  max-width: 205px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-style: italic;
 }
 
-body .contenedor .empleados .card-one .rol p {
+body .contenedor .empleados .cards .card-one .rol h3 {
+  color: #f58323;
+  font-size: 15px;
+  max-width: 205px;
+  margin: 0px 0px 8px 0px;
+}
+
+body .contenedor .empleados .cards .card-one .rol p {
   color: black;
   font-size: 15px;
   max-width: 230px;
-  margin-top: 8px;
+  margin-top: 0px;
   margin-bottom: 8px;
 }
 
-body .contenedor .empleados .card-one .rol .contact1 {
+body .contenedor .empleados .cards .card-one .rol .contact1 {
   margin-top: 0px;
 }
 
-body .contenedor .empleados .card-one .rol .contact1 ul {
+body .contenedor .empleados .cards .card-one .rol .contact1 ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -285,7 +312,7 @@ body .contenedor .empleados .card-one .rol .contact1 ul {
   padding: 0px;
 }
 
-body .contenedor .empleados .card-one .rol .contact1 ul .fa.fa-whatsapp {
+body .contenedor .empleados .cards .card-one .rol .contact1 ul .fa.fa-whatsapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,7 +321,7 @@ body .contenedor .empleados .card-one .rol .contact1 ul .fa.fa-whatsapp {
           align-items: center;
 }
 
-body .contenedor .empleados .card-one .rol .contact1 ul li {
+body .contenedor .empleados .cards .card-one .rol .contact1 ul li {
   margin-right: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -306,17 +333,17 @@ body .contenedor .empleados .card-one .rol .contact1 ul li {
   color: grey;
 }
 
-body .contenedor .empleados .card-one .rol .contact1 ul li a {
+body .contenedor .empleados .cards .card-one .rol .contact1 ul li a {
   text-decoration: none;
   color: #3E3C3C;
   font-size: 14px;
 }
 
-body .contenedor .empleados .card-one .rol .contact {
+body .contenedor .empleados .cards .card-one .rol .contact {
   margin-top: 8px;
 }
 
-body .contenedor .empleados .card-one .rol .contact ul {
+body .contenedor .empleados .cards .card-one .rol .contact ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -327,7 +354,7 @@ body .contenedor .empleados .card-one .rol .contact ul {
   padding: 0px;
 }
 
-body .contenedor .empleados .card-one .rol .contact ul .fa.fa-whatsapp {
+body .contenedor .empleados .cards .card-one .rol .contact ul .fa.fa-whatsapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,7 +364,7 @@ body .contenedor .empleados .card-one .rol .contact ul .fa.fa-whatsapp {
   color: grey;
 }
 
-body .contenedor .empleados .card-one .rol .contact ul li {
+body .contenedor .empleados .cards .card-one .rol .contact ul li {
   margin-right: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -349,17 +376,17 @@ body .contenedor .empleados .card-one .rol .contact ul li {
   color: grey;
 }
 
-body .contenedor .empleados .card-one .rol .contact ul li a {
+body .contenedor .empleados .cards .card-one .rol .contact ul li a {
   text-decoration: none;
   color: #3E3C3C;
   font-size: 14px;
 }
 
-body .contenedor .empleados .card-one .rol .contact ul li a:hover {
+body .contenedor .empleados .cards .card-one .rol .contact ul li a:hover {
   color: green;
 }
 
-body .contenedor .empleados.active {
+body .contenedor.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -452,29 +479,45 @@ body .contenedor .empleados.active {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-  body .contenedor .empleados .card-one.style {
-    width: 90%;
+  body .contenedor .empleados .titulo {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  body .contenedor .empleados .card-one {
+  body .contenedor .empleados .titulo .title {
+    margin: 0px;
+  }
+  body .contenedor .empleados .titulo img {
+    padding: 0px;
+  }
+  body .contenedor .empleados .cards {
+    margin-bottom: 10px;
+  }
+  body .contenedor .empleados .cards .card-one {
     width: 90%;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  body .contenedor .empleados .card-one .rol {
+  body .contenedor .empleados .cards .card-one .rol {
     margin-right: 10px;
     margin-left: 22px;
   }
-  body .contenedor .empleados .card-one .rol p {
-    margin-top: 10px;
+  body .contenedor .empleados .cards .card-one .rol p {
+    margin-top: 0px;
     margin-bottom: 10px;
     margin-right: 15px;
   }
-  body .contenedor .empleados .card-one .rol .contact {
+  body .contenedor .empleados .cards .card-one .rol h3 {
+    max-width: 260px;
+  }
+  body .contenedor .empleados .cards .card-one .rol .contact {
     margin-bottom: 20px;
   }
-  body .contenedor .empleados .card-one a img {
+  body .contenedor .empleados .cards .card-one a img {
     height: 270px;
     margin: auto;
     width: 90%;

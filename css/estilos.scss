@@ -50,30 +50,33 @@ body{
                 }
                 .contact1{
                     margin-top: 15px;
-                    ul{
-                        display: flex;
-                        align-items: center;
-                        margin: 0px;
-                        padding: 0px;
-                        .fa.fa-whatsapp{
-                            display: flex;
-                            align-items: center;
-                            // color: orange;
-                        }
-                        li{
-                            margin: 5px;
-                            display: flex;
-                            align-items: center;
-                            font-size: 21px;
-                            color: orange;
-                            a{
-                                text-decoration: none;
-                                // color: #3E3C3C;
-                                color: black;
-                                font-size: 16px;
-                            }
-                        }
+                    a{
+
                     }
+                    // ul{
+                    //     display: flex;
+                    //     align-items: center;
+                    //     margin: 0px;
+                    //     padding: 0px;
+                    //     .fa.fa-whatsapp{
+                    //         display: flex;
+                    //         align-items: center;
+                    //         // color: orange;
+                    //     }
+                    //     li{
+                    //         margin: 5px;
+                    //         display: flex;
+                    //         align-items: center;
+                    //         font-size: 21px;
+                    //         color: orange;
+                    //         a{
+                    //             text-decoration: none;
+                    //             // color: #3E3C3C;
+                    //             color: black;
+                    //             font-size: 16px;
+                    //         }
+                    //     }
+                    // }
                 }
                 .contact{
                     margin-bottom: 20px;
